@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>J & J Home Improvement Consulting</title>
+    <link rel="shortcut icon" href="logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/menu.css">
+    <link
+    rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <div class="content">
+        <header>
+            <img class="animate__animated animate__fadeIn" width="100%" src="logo.jpeg" alt="logo">
+            <div class="space"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="hero">
+                <h2 class="animate__animated animate__slideInUp">Your Home, Improved</h2>
+                <p class="animate__animated animate__fadeInDown ">We help homeowners transform their spaces into the homes of their dreams.</p>
+                <a href="#contact" class="cta animate__animated animate__fadeInUp animate__delay-1s">Schedule a Consultation</a>
+            </section>
+    
+            <section id="about">
+                <h2>About Us</h2>
+                <p>J & J Home Improvement Consulting is a team of experienced professionals who are passionate about helping
+                    homeowners achieve their home improvement goals. Our team has a diverse range of expertise, including
+                    interior design, construction, and project management.</p>
+            </section>
+    
+            <section id="services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>- Interior design consultation</li>
+                    <li>- Construction project management</li>
+                    <li>- Home renovation planning</li>
+                    <li>- DIY home improvement coaching</li>
+                </ul>
+                <a href="#contact" class="cta">Schedule a Consultation</a>
+            </section>
+    
+            <section id="blog">
+                <h2>From the Blog</h2>
+                <article>
+                    <h3>5 Tips for a Successful Kitchen Renovation</h3>
+                    <img src="kitchen-renovation.jpeg" alt="Kitchen renovation" />
+                    <p>Thinking about renovating your kitchen? Check out these tips to ensure a successful project.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article>
+                    <h3>10 DIY Projects to Update Your Bathroom</h3>
+                    <img src="bathroom-diy.jpeg" alt="Bathroom DIY projects" />
+                    <p>Looking to update your bathroom without breaking the bank? These DIY projects are easy and
+                        affordable.</p>
+                    <a href="#">Read More</a>
+                </article>
+            </section>
+    
+            <section id="testimonials">
+                <h2>What Our Clients Say</h2>
+                <blockquote>
+                    "Working with Home Improvement Consulting was the best decision we made for our home renovation project.
+                    They were with us every step of the way and made the process stress-free."
+                    <cite>—John and Sarah, Happy Clients</cite>
+                </blockquote>
+                <blockquote>
+                    "I was skeptical about hiring a consultant for my DIY project, but Home Improvement Consulting gave me
+                    the confidence and knowledge I needed to complete the project on my own. I couldn't be happier with the
+                    results."
+                    <cite>—Linda, Happy Client</cite>
+                </blockquote>
+            </section>
+    
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Ready to get started on your home improvement project? Fill out the form below to schedule a
+                    consultation.</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" />
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2023 J & J Home Improvement Consulting</p>
+            <a href="#">Up</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    <script >
+        let check = document.getElementById("active")
+        
+        function close(){
+            check.checked=false;
+        }
+    </script>
+</body>
+
+</html>
+
+
